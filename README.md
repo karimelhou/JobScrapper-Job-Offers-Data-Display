@@ -72,9 +72,11 @@ Update the API endpoint in "src/views/crudView.vue" to match your Node.js server
 ```
 const apiEndpoint = 'http://localhost:3000/api/jobs/';
 ```
+
 Start the Vue.js application:
 ```
-npm run dev ```
+npm run dev
+```
 Open your web browser and access the application at http://localhost:3001/.  <br> <br>
 The Vue.js application should now display the job data fetched from the Node.js server and formatted in a table.
 
