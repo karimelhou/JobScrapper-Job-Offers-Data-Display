@@ -47,11 +47,13 @@ Install Node.js if you haven't already: https://nodejs.org/en/download/ <br>
 Navigate to the "vue-app" directory in your terminal or command prompt. <br>
 Install the required Node.js packages for the Vue.js application: <br>
 ```
-npm install ```
+npm install
+```
 Install the required Node.js packages for the Node.js server: <br>
 ```
 cd server
-npm install ```
+npm install
+```
 Update the database connection details in the Node.js server file "server.js":
 ```
 const dbConfig = {
@@ -59,13 +61,15 @@ const dbConfig = {
   user: '<username>',
   password: '<password>',
   database: 'indeed_data',
-}; ```
+};
+```
 Start the Node.js server:
 ```
-node server.js ```
+node server.js
+```
 In a new terminal or command prompt, navigate back to the "vue-app" directory. <br>
 Update the API endpoint in "src/views/crudView.vue" to match your Node.js server URL: <br>
-````
+```
 const apiEndpoint = 'http://localhost:3000/api/jobs/';
 ```
 Start the Vue.js application:
