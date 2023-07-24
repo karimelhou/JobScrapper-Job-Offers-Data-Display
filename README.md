@@ -46,7 +46,7 @@ To run the Vue.js 3 application and Node.js server, follow these steps:
 Install Node.js if you haven't already: https://nodejs.org/en/download/ <br>
 Navigate to the "vue-app" directory in your terminal or command prompt. <br>
 Install the required Node.js packages for the Vue.js application: <br>
-````
+```
 npm install ```
 Install the required Node.js packages for the Node.js server: <br>
 ```
