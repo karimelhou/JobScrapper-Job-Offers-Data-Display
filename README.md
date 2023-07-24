@@ -33,10 +33,11 @@ pip install pymysql
 Create a MySQL database named "indeed_data." <br>
 Update the database connection details in the Python script:
 ```
-engine = create_engine('mysql+pymysql://<username>:<password>@localhost/indeed_data') ```
+engine = create_engine('mysql+pymysql://<username>:<password>@localhost/indeed_data')
+```
 Run the Python script to start the data scraping and storage process:
 ```
-python indeed_scrapper.py ````
+python indeed_scrapper.py ```
 
 ### Vue.js 3 Application and Node.js Server
 To run the Vue.js 3 application and Node.js server, follow these steps:
