@@ -77,7 +77,7 @@ Start the Vue.js application:
 ```
 npm run dev
 ```
-Open your web browser and access the application at http://localhost:3001/.  <br> <br>
+Open your web browser and access the application  <br> <br>
 The Vue.js application should now display the job data fetched from the Node.js server and formatted in a table.
 
 ## Contribution and License
