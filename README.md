@@ -12,7 +12,7 @@ The analyzed job data is then stored efficiently in a MySQL database using SQLAl
 
 ## Vue.js 3 Application and Node.js Server
 
-The frontend of this project is built using Vue.js 3, which provides an intuitive and reactive user interface. The Vue.js application, combined with a Node.js server, facilitates the retrieval of job data from the MySQL database and delivers it to the webpage for display.
+The frontend of this project is built using Vue.js 3, which provides an intuitive and reactive user interface. The Vue.js application, combined with a Node.js server and express Js, facilitates the retrieval of job data from the MySQL database and delivers it to the webpage for display.
 
 The Node.js server acts as an intermediary layer between the Vue.js application and the MySQL database. It provides an API endpoint to fetch job data from the database and serves it in JSON format. The Vue.js application efficiently handles this data and renders it in a user-friendly format, allowing job seekers to access the latest job offers and stay informed about the job market trends.
 
